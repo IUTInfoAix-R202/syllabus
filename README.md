@@ -54,13 +54,13 @@ Maîtriser la conception et l'implémentation d'applications graphiques interact
 
 ### Compétences techniques
 
-- Utilisation d'un IDE (IntelliJ IDEA ou VS Code)
-- Ligne de commande Unix/Windows
+- Utilisation d'un IDE
+- Ligne de commande Unix
 - Premières notions de Git (clone, commit, push)
 
 ### Environnement technique
 
-- **Java 25** (JDK Temurin ou Zulu fx)
+- **Java 25** (JDK Zulu fx)
 - **JavaFX 25** (via pom.xml, aucune installation manuelle)
 - **Maven Wrapper 3.9.14** (`./mvnw` fourni dans chaque TP)
 - **SceneBuilder** (optionnel, utile à partir du TP3)
@@ -102,7 +102,7 @@ Chaque TP est autonome (son propre repo Git, sa propre fiche Classroom) mais s'i
 
 ### Approche TDD baby-step
 
-Chaque TP est structuré comme une série de **tests désactivés** (`@Disabled`). L'étudiant active les tests **un par un** dans l'ordre, écrit le code minimal pour les faire passer, puis avance.
+Chaque exercice pendant les TP est structuré comme une série de **tests désactivés** (`@Disabled`). L'étudiant active les tests **un par un** dans l'ordre, écrit le code minimal pour les faire passer, puis avance.
 
 Cette approche :
 
@@ -117,7 +117,7 @@ Cette approche :
 - **Branches** : les exercices peuvent se développer sur des branches thématiques
 - **Pull Request** vers la branche principale pour chaque exercice fini
 - **Auto-évaluation** via les tests qui tournent en CI GitHub Actions
-- **Code review** pair à pair optionnelle
+- **Code review** pair à pair optionnelle (revue Copilot automatique)
 
 ### Copilot comme tuteur (pas comme copieur)
 
@@ -186,14 +186,12 @@ Appréciée tout au long du semestre par les enseignants. Critères :
 
 - [`cours`](https://github.com/IUTInfoAix-R202/cours) — slides Marp des CM
 - [`tp`](https://github.com/IUTInfoAix-R202/tp) — index des TP et CM
-- [`tp1`](https://github.com/IUTInfoAix-R202/tp1), [`tp2`](https://github.com/IUTInfoAix-R202/tp2), `tp3`... — un repo par TP
-- [`template-tp-javafx`](https://github.com/IUTInfoAix-R202/template-tp-javafx) — pivot technique (mainteneurs)
 - [`syllabus`](https://github.com/IUTInfoAix-R202/syllabus) — ce document
 - [`IUTInfoAix-R202-archive`](https://github.com/IUTInfoAix-R202-archive/) — anciens sujets et archives historiques
 
 ### Environnement recommandé
 
-- **IntelliJ IDEA Community** (recommandé) ou **VS Code + extensions Java**
+- **VS Code + extensions Java**
 - **SceneBuilder** (facultatif, utile à partir du TP3)
 - **GitHub Codespaces** (option cloud gratuite via GitHub Education)
 
