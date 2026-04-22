@@ -7,12 +7,19 @@
 ## 📋 Informations générales
 
 - **Intitulé** : R2.02 - Développement d'applications avec IHM
-- **Semestre** : S2
-- **Responsable** : [Sébastien NEDJAR](mailto:sebastien.nedjar@univ-amu.fr)
+- **Semestre** : S2 (année BUT1)
+- **Période** : 8 semaines, du 27 avril au 15 juin 2026
+- **Volume horaire** : 38h (6h CM + 22h TD + 10h TP) + 2h de test final
+- **Responsable** : [Sébastien NEDJAR](mailto:sebastien.nedjar@univ-amu.fr) *(SéN)*
 - **Enseignants** :
-  - [Frédéric Flouvat](mailto:frederic.flouvat@univ-amu.fr)
-  - [Sophie Nabitz](mailto:sophie.nabitz@univ-avignon.fr)
-  - [Samir Chtioui](mailto:samir.chtioui@gmail.com)
+  - [Frédéric Flouvat](mailto:frederic.flouvat@univ-amu.fr) *(FF)*
+  - [Sophie Nabitz](mailto:sophie.nabitz@univ-avignon.fr) *(SoN, sauf mercredi toute la journée et vendredi après-midi)*
+  - [Samir Chtioui](mailto:samir.chtioui@gmail.com) *(SC)*
+- **Format des séances** :
+  - **CM** : 4 séances de 1h30 (cf. slides sur GitHub Pages)
+  - **TD** : blocs de 4h en salle machine (bloc unique ou 2 × 2h selon emploi du temps)
+  - **TP** : séances de 2h dédoublées ou 4h dédoublées, salle machine
+  - **Test final** : 2h en salle de test
 - **Ressource officielle** : [Annexe 17 PN BUT Informatique](https://cache.media.enseignementsup-recherche.gouv.fr/file/SPE4-MESRI-17-6-2021/35/5/Annexe_17_INFO_BUT_annee_1_1411355.pdf)
 
 ---
@@ -84,7 +91,7 @@ Maîtriser la conception et l'implémentation d'applications graphiques interact
 - **🧠 Ergonomie / UX** : Nielsen & Gestalt (CM1) → affordance (CM2) → WCAG / Fitts / Hick (CM3)
 - **⚡ Modèle événementiel** : `setOnAction` basique (CM1) → propagation complète (CM2) → bindings réactifs (CM2-4)
 
-### Travaux pratiques (5 × séance)
+### Travaux pratiques (TP - 10h en séances dédoublées)
 
 | TP | Thème | Exercices | Difficulté | Statut |
 |----|-------|-----------|------------|--------|
@@ -170,9 +177,11 @@ Appréciée tout au long du semestre par les enseignants. Critères :
 ### CC3 — Examen terminal écrit
 
 - **Durée** : 2 heures
+- **Salle** : salle de test dédiée
 - **Documents autorisés** : oui, anciens sujets conseillés
 - **Sujet** : mini-application JavaFX à coder sur feuille (vue, contrôleur, bindings)
 - **Barème** : cohérent avec les sujets d'examen des années précédentes
+- **Date** : dernière semaine du module (semaine du 15 juin 2026)
 
 ### Anciens sujets d'examen (archive)
 
