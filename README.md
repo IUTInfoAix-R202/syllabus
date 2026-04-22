@@ -57,7 +57,7 @@ Les acquis critiques officiellement rattachés à R2.02 :
 
 ### SAÉ concernée par cette ressource
 
-- **SAÉ 2.01** — Développement d'une application *(fil rouge du module : interface d'extraction et manipulation de données pour capteurs de détection de chauves-souris)*
+- **SAÉ 2.01** — Développement d'une application : interface d'extraction et manipulation de données pour capteurs de détection de chauves-souris. **SAÉ portée conjointement avec R2.03 (Qualité de développement)** — les compétences JavaFX/FXML/MVVM y sont mobilisées pour construire l'application, les compétences Git/TDD/revue de code pour en garantir la qualité.
 
 ### Acquis d'apprentissage détaillés (implémentation 2025-2026)
 
