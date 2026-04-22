@@ -15,7 +15,7 @@
   - [Frédéric Flouvat](mailto:frederic.flouvat@univ-amu.fr)
   - [Sophie Nabitz](mailto:sophie.nabitz@univ-avignon.fr)
   - [Samir Chtioui](mailto:samir.chtioui@gmail.com)
-  - Olivier Gérard *(4 h d'ergonomie, préparation SAÉ 2.01, semaine 7)*
+  - [Olivier Gérard](mailto:olivier.GERARD@univ-amu.fr) *(4 h d'ergonomie, préparation SAÉ 2.01, semaine 7)*
 - **Format des séances** :
   - **CM** : 4 séances de 1h30 (cf. slides sur GitHub Pages)
   - **TD** : blocs de 4h en salle machine (bloc unique ou 2 × 2h selon emploi du temps)
