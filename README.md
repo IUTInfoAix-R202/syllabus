@@ -10,11 +10,11 @@
 - **Semestre** : S2 (année BUT1)
 - **Période** : 8 semaines, du 27 avril au 15 juin 2026
 - **Volume horaire** : 38h (6h CM + 22h TD + 10h TP) + 2h de test final
-- **Responsable** : [Sébastien NEDJAR](mailto:sebastien.nedjar@univ-amu.fr) *(SéN)*
+- **Responsable** : [Sébastien NEDJAR](mailto:sebastien.nedjar@univ-amu.fr)
 - **Enseignants** :
-  - [Frédéric Flouvat](mailto:frederic.flouvat@univ-amu.fr) *(FF)*
-  - [Sophie Nabitz](mailto:sophie.nabitz@univ-avignon.fr) *(SoN, sauf mercredi toute la journée et vendredi après-midi)*
-  - [Samir Chtioui](mailto:samir.chtioui@gmail.com) *(SC)*
+  - [Frédéric Flouvat](mailto:frederic.flouvat@univ-amu.fr)
+  - [Sophie Nabitz](mailto:sophie.nabitz@univ-avignon.fr)
+  - [Samir Chtioui](mailto:samir.chtioui@gmail.com)
 - **Format des séances** :
   - **CM** : 4 séances de 1h30 (cf. slides sur GitHub Pages)
   - **TD** : blocs de 4h en salle machine (bloc unique ou 2 × 2h selon emploi du temps)
