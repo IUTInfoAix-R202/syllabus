@@ -55,10 +55,9 @@ Les acquis critiques officiellement rattachés à R2.02 :
 - **Ergonomie / utilisabilité** : heuristiques de Nielsen, lois de Gestalt, affordance (Don Norman)
 - **Persistance simple** : sérialisation, JDBC, JPA (ouverture vers R3/R4)
 
-### SAÉ concernées par cette ressource
+### SAÉ concernée par cette ressource
 
-- **SAE 2.01** — Développement d'une application *(fil rouge principal : interface d'extraction et manipulation de données pour capteurs de détection de chauves-souris)*
-- **SAE 2.05** — Gestion d'un projet *(workflow Git/GitHub, revue de code, intégration continue)*
+- **SAÉ 2.01** — Développement d'une application *(fil rouge du module : interface d'extraction et manipulation de données pour capteurs de détection de chauves-souris)*
 
 ### Acquis d'apprentissage détaillés (implémentation 2025-2026)
 
