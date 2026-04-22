@@ -15,6 +15,7 @@
   - [Frédéric Flouvat](mailto:frederic.flouvat@univ-amu.fr)
   - [Sophie Nabitz](mailto:sophie.nabitz@univ-avignon.fr)
   - [Samir Chtioui](mailto:samir.chtioui@gmail.com)
+  - Olivier Gérard *(4 h d'ergonomie, préparation SAÉ 2.01, semaine 7)*
 - **Format des séances** :
   - **CM** : 4 séances de 1h30 (cf. slides sur GitHub Pages)
   - **TD** : blocs de 4h en salle machine (bloc unique ou 2 × 2h selon emploi du temps)
@@ -116,7 +117,7 @@ Le module est réparti sur **8 semaines** du 27 avril au 15 juin 2026, suivies d
 | 4 | Lun. 18 mai 2026 | 1h30 | 4 h | 2 h | **CM3** Architecture & FXML · **TD4** · **TP3** FXML |
 | 5 | Lun. 25 mai 2026 | — | 4 h | — | **TD5** (suite FXML / MVVM) |
 | 6 | Lun. 1er juin 2026 | 1h30 | 2 h | 2 h | **CM4** MVVM & synthèse · **TP4** MVVM |
-| 7 | Lun. 8 juin 2026 | — | — | 4 h | **TP5** Persistance |
+| 7 | Lun. 8 juin 2026 | — | 4 h | 4 h | **TP5** Persistance · **TD Ergonomie** 4 h (Olivier Gérard, préparation SAÉ 2.01) |
 | **Examen** | **Lun. 15 juin 2026** | — | **2 h** | — | **CC3** test écrit commun avec R2.03 (salle de test) |
 
 **Durée d'une séance** : CM de 1h30, TD en blocs de 4h (ou 2 × 2h), TP dédoublés de 2h ou 4h. Le responsable organise le découpage avec la scolarité. Le calendrier ci-dessus est indicatif — les dates de publication des CM/TP peuvent bouger selon l'avancement.
