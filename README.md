@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/IUTInfoAix-R510/Syllabus/main/assets/logo.png" alt="class logo" class="logo" width="120"/> R2.02 — Développement d'applications avec IHM
+# <img src=".github/assets/logo.png" alt="class logo" class="logo" width="120"/> R2.02 — Développement d'applications avec IHM
 
 ## BUT Informatique — 1ère année — IUT Aix-Marseille (département Informatique)
 
@@ -8,20 +8,21 @@
 
 - **Intitulé** : R2.02 - Développement d'applications avec IHM
 - **Semestre** : S2 (année BUT1)
-- **Période** : 8 semaines, du 27 avril au 18 juin 2026
-- **Volume horaire** : 38h (6h CM + 22h TD + 10h TP) + 2h de test final
-- **Responsable** : [Sébastien NEDJAR](mailto:sebastien.nedjar@univ-amu.fr)
-- **Enseignants** :
+- **Volume horaire PN** : 38 h (dont 10 h de TP)
+- **Maquette locale IUT Aix-Marseille 2025-2026** : 6 h CM + 22 h TD + 12 h TP + 2 h test écrit *(les heures TP supplémentaires par rapport au PN proviennent de la SAÉ 2.01 co-portée)*
+- **Responsable** : [Sébastien NEDJAR](mailto:sebastien.nedjar@univ-amu.fr) - responsable du module
+- **Équipe pédagogique** :
   - [Frédéric Flouvat](mailto:frederic.flouvat@univ-amu.fr)
   - [Sophie Nabitz](mailto:sophie.nabitz@univ-avignon.fr)
   - [Samir Chtioui](mailto:samir.chtioui@gmail.com)
-  - [Olivier Gérard](mailto:olivier.GERARD@univ-amu.fr) *(4 h d'ergonomie, préparation SAÉ 2.01, semaine 7)*
+  - [Olivier Gérard](mailto:olivier.GERARD@univ-amu.fr) *(intervention ergonomie, 4 h en semaine 7, préparation SAÉ 2.01)*
 - **Format des séances** :
-  - **CM** : 4 séances de 1h30 (cf. slides sur GitHub Pages)
+  - **CM** : 4 séances de 1h30
   - **TD** : blocs de 4h en salle machine (bloc unique ou 2 × 2h selon emploi du temps)
   - **TP** : séances de 2h dédoublées ou 4h dédoublées, salle machine
-  - **Test final** : 2h en salle de test
-- **Ressource officielle** : [Annexe 17 PN BUT Informatique](https://cache.media.enseignementsup-recherche.gouv.fr/file/SPE4-MESRI-17-6-2021/35/5/Annexe_17_INFO_BUT_annee_1_1411355.pdf)
+  - **Test final** : 2h, commun avec R2.03
+- **Ressource officielle** : [Annexe 15 du PN BUT Informatique 2022 - fiche R2.02 p. 92](https://cache.media.education.gouv.fr/file/SP4-MESRI-26-5-2022/14/6/spe617_annexe15_1426146.pdf)
+- **Mots-clés officiels** : Interface homme-machine, Événementiel, Ergonomie
 
 ---
 
@@ -29,32 +30,42 @@
 
 ### Objectif général (extrait du PN)
 
-Cette ressource vise à développer les compétences relatives à la **conception et au développement d'applications interactives** : la modélisation et la mise en œuvre d'interfaces homme-machine (IHM), la programmation événementielle, la séparation claire entre données / vue / logique, et la prise en compte de l'utilisateur final (ergonomie, utilisabilité).
+> *Cette ressource permet d'appréhender la conception d'applications interactives en mettant en œuvre une approche événementielle et en respectant les contraintes ergonomiques liées aux utilisateurs.*
+
+En pratique, le module vise à maîtriser les **fondations du développement d'interfaces graphiques** : structurer un graphe de scène, piloter l'application par des événements, séparer vue et logique via des patrons comme MVC ou MVVM, et concevoir des interfaces utilisables en s'appuyant sur les principes d'ergonomie (Nielsen, Gestalt, affordance).
 
 ### Compétences BUT ciblées
 
-- **C1 AC2** — Élaborer des conceptions simples *(architecture des applications graphiques)*
-- **C1 AC4** — Développer des interfaces utilisateurs *(cœur du module)*
-- **C5 AC1** — Appréhender les besoins du client et utilisateur *(heuristiques ergonomiques)*
-- **C6 AC1** — Appréhender l'écosystème numérique *(GitHub, IDE, Maven, CI)*
+Deux compétences du référentiel BUT Informatique sont ciblées par R2.02 :
+
+| Compétence | Intitulé |
+|---|---|
+| **Compétence 1** | Développer - c'est-à-dire concevoir, coder, tester et intégrer - une solution informatique pour un client |
+| **Compétence 2** | Optimiser des applications informatiques, en exploitant les principes algorithmiques et les structures de données adaptés |
 
 ### Apprentissages critiques (AC)
 
+> [!NOTE]
+> **Lecture des codes d'apprentissages critiques** : dans le PN BUT Informatique 2022, le code `ACLCNN` se décompose ainsi :
+> - `L` = niveau (1 = BUT1, 2 = BUT2, 3 = BUT3)
+> - `C` = numéro de la compétence
+> - `NN` = numéro séquentiel de l'AC dans cette compétence à ce niveau
+>
+> Exemple : `AC11.02` = 2e apprentissage critique de la compétence 1 au niveau BUT1.
+
 Les acquis critiques officiellement rattachés à R2.02 :
 
-- **C1 AC2** — Élaborer des conceptions simples *(structurer le graphe de scène, séparer modèle/vue/contrôleur)*
-- **C1 AC4** — Développer des interfaces utilisateurs *(composants, événements, FXML, bindings, MVVM)*
-- **C5 AC1** — Appréhender les besoins du client et utilisateur *(heuristiques de Nielsen, affordance, prévention d'erreurs)*
-- **C6 AC1** — Appréhender l'écosystème numérique *(workflow Git/GitHub, autograding Classroom, IDE)*
+- **AC11.02** - Élaborer des conceptions simples *(structurer le graphe de scène, séparer modèle/vue/contrôleur)*
+- **AC11.04** - Développer des interfaces utilisateurs *(cœur du module : composants, événements, FXML, bindings, MVVM)*
+- **AC12.02** - Choisir les structures de données adaptées aux problèmes posés *(propriétés observables, collections réactives)*
 
 ### Savoirs de référence (descriptif PN)
 
-- **Programmation événementielle** : `EventHandler`, propagation (capture/bubbling), gestionnaires multiples
-- **Composants graphiques de base** : Stage, Scene, Nodes, layouts, contrôles (Button, Label, TextField, Slider, ComboBox…)
-- **Liaison de données** : propriétés observables, bindings unidirectionnels et bidirectionnels
-- **Séparation vue/logique** : FXML déclaratif, contrôleurs, patron MVC puis MVVM
+- **Programmation événementielle** : gestion d'événements, callbacks, propagation
+- **Composants graphiques** : éléments de base d'une IHM (fenêtres, conteneurs, contrôles)
+- **Liaison de données** : propriétés observables, bindings réactifs
+- **Séparation vue/logique** : patrons architecturaux (MVC, MVVM) pour une IHM maintenable
 - **Ergonomie / utilisabilité** : heuristiques de Nielsen, lois de Gestalt, affordance (Don Norman)
-- **Persistance simple** : sérialisation, JDBC, JPA (ouverture vers R3/R4)
 
 ### SAÉ concernée par cette ressource
 
@@ -64,14 +75,16 @@ Les acquis critiques officiellement rattachés à R2.02 :
 
 À l'issue de cette ressource, vous serez capable de :
 
-1. **Concevoir** un graphe de scène JavaFX avec Stage / Scene / Nodes et choisir le bon conteneur *(C1 AC2)*
-2. **Utiliser** le modèle événementiel : `EventHandler`, propagation capture/bubbling, `EventFilter`, `consume()` *(C1 AC4)*
-3. **Structurer** une application avec propriétés observables (`IntegerProperty`, `StringProperty`…) et bindings unidirectionnels / bidirectionnels *(C1 AC2, C1 AC4)*
-4. **Séparer** vue et logique métier avec FXML et contrôleurs *(C1 AC2, C1 AC4)*
-5. **Appliquer** les heuristiques de Nielsen et les lois de Gestalt pour concevoir des interfaces utilisables *(C5 AC1)*
-6. **Architecturer** une application selon le patron MVVM avec injection de dépendances *(C1 AC2)*
-7. **Utiliser un workflow professionnel** : branche → PR → autograding CI → code review *(C6 AC1)*
-8. **Utiliser Copilot Chat comme tuteur** (compréhension, documentation), jamais comme générateur de solution *(C6 AC1)*
+1. **Concevoir** un graphe de scène JavaFX avec Stage / Scene / Nodes et choisir le bon conteneur *(AC11.02)*
+2. **Utiliser** le modèle événementiel : `EventHandler`, propagation capture/bubbling, `EventFilter`, `consume()` *(AC11.04)*
+3. **Structurer** une application avec propriétés observables (`IntegerProperty`, `StringProperty`...) et bindings unidirectionnels / bidirectionnels *(AC11.02, AC12.02)*
+4. **Séparer** vue et logique métier avec FXML et contrôleurs *(AC11.02, AC11.04)*
+5. **Appliquer** les heuristiques de Nielsen et les lois de Gestalt pour concevoir des interfaces utilisables *(AC11.04)*
+6. **Architecturer** une application selon le patron MVVM avec injection de dépendances *(AC11.02)*
+7. **Utiliser un workflow professionnel** : branche → PR → autograding CI → code review *(AC11.04)*
+8. **Utiliser Copilot Chat comme tuteur** (compréhension, documentation), jamais comme générateur de solution *(AC11.04)*
+
+> **Note** : les compétences de workflow professionnel (Git/GitHub, revue de code) sont formellement développées dans R2.03 (Qualité de développement), module couplé à R2.02 par la SAÉ 2.01 commune. Elles sont mises en pratique dans chaque TP R2.02 pour préparer la SAÉ.
 
 ---
 
