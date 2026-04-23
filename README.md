@@ -8,7 +8,7 @@
 
 - **Intitulé** : R2.02 - Développement d'applications avec IHM
 - **Semestre** : S2 (année BUT1)
-- **Période** : 8 semaines, du 27 avril au 15 juin 2026
+- **Période** : 8 semaines, du 27 avril au 18 juin 2026
 - **Volume horaire** : 38h (6h CM + 22h TD + 10h TP) + 2h de test final
 - **Responsable** : [Sébastien NEDJAR](mailto:sebastien.nedjar@univ-amu.fr)
 - **Enseignants** :
@@ -62,7 +62,7 @@ Les acquis critiques officiellement rattachés à R2.02 :
 
 ### Acquis d'apprentissage détaillés (implémentation 2025-2026)
 
-À l'issue de cette ressource, l'étudiant sera capable de :
+À l'issue de cette ressource, vous serez capable de :
 
 1. **Concevoir** un graphe de scène JavaFX avec Stage / Scene / Nodes et choisir le bon conteneur *(C1 AC2)*
 2. **Utiliser** le modèle événementiel : `EventHandler`, propagation capture/bubbling, `EventFilter`, `consume()` *(C1 AC4)*
@@ -96,7 +96,7 @@ Le PN ne formalise **aucun prérequis** pour R2.02. En pratique, le module s'app
 
 - **Java 25** (JDK Zulu fx)
 - **JavaFX 25** (via `pom.xml`, aucune installation manuelle)
-- **Maven Wrapper 3.9.14** (`./mvnw` fourni dans chaque TP)
+- **Apache Maven 3.9.14 via Maven Wrapper** (`./mvnw` fourni dans chaque TP, aucune installation manuelle)
 - **SceneBuilder** (optionnel, utile à partir du TP3)
 - **GitHub Codespaces** (recommandé, environnement cloud préconfiguré)
 - **VS Code** + extensions Java + **GitHub Copilot Chat** (activé en mode tuteur)
@@ -107,7 +107,7 @@ Le PN ne formalise **aucun prérequis** pour R2.02. En pratique, le module s'app
 
 ### Calendrier 2025-2026
 
-Le module est réparti sur **8 semaines** du 27 avril au 15 juin 2026, suivies d'un **examen écrit** en commun avec R2.03 :
+Le module est réparti sur **8 semaines** du 27 avril au 18 juin 2026, suivies d'un **examen écrit** en commun avec R2.03 :
 
 | Semaine | Date | CM | TD | TP | Contenu |
 |---|---|---|---|---|---|
@@ -118,7 +118,7 @@ Le module est réparti sur **8 semaines** du 27 avril au 15 juin 2026, suivies d
 | 5 | Lun. 25 mai 2026 | — | 4 h | — | **TD5** (suite FXML / MVVM) |
 | 6 | Lun. 1er juin 2026 | 1h30 | 2 h | 2 h | **CM4** MVVM & synthèse · **TP4** MVVM |
 | 7 | Lun. 8 juin 2026 | — | 4 h | 4 h | **TP5** Persistance · **TD Ergonomie** 4 h (Olivier Gérard, préparation SAÉ 2.01) |
-| **Examen** | **Lun. 15 juin 2026** | — | **2 h** | — | **CC3** test écrit commun avec R2.03 (salle de test) |
+| **Examen** | **Jeu. 18 juin 2026** | — | **2 h** | — | **CC3** test écrit commun avec R2.03 |
 
 **Durée d'une séance** : CM de 1h30, TD en blocs de 4h (ou 2 × 2h), TP dédoublés de 2h ou 4h. Le responsable organise le découpage avec la scolarité. Le calendrier ci-dessus est indicatif — les dates de publication des CM/TP peuvent bouger selon l'avancement.
 
@@ -176,14 +176,18 @@ Cette approche :
 - **Auto-évaluation** via les tests qui tournent en CI GitHub Actions
 - **Code review** pair à pair optionnelle (revue Copilot automatique)
 
-### Copilot comme tuteur (pas comme copieur)
+### GitHub Copilot : deux rôles distincts
 
-L'usage de **GitHub Copilot Chat** est **encouragé** dans un rôle pédagogique :
+**Copilot Chat** (tuteur en séance) est **encouragé** dans un rôle pédagogique précis, cadré par `.github/copilot-instructions.md` dans chaque TP :
 
-- ✅ Poser des questions conceptuelles ("comment fonctionne `@FXML` ?")
+- ✅ Poser des questions conceptuelles (« comment fonctionne `@FXML` ? »)
 - ✅ Comprendre un message d'erreur
 - ✅ Discuter d'une approche **avant** d'écrire le code
-- ❌ Demander "écris ce test à ma place"
+- ❌ Demander « écris ce test à ma place »
+
+**Copilot code review** (reviewer automatique sur les Pull Requests) est activé sur chaque repo : à chaque ouverture de PR, un commentaire automatique signale les problèmes potentiels (style, bugs, incohérences). Consigne : **lire les commentaires avant de merger** et les intégrer quand ils sont pertinents.
+
+**Pourquoi c'est essentiel** : l'évaluation CC3 se fait **sur feuille, sans outil**. Vous devez construire vos propres automatismes.
 
 ### Fil rouge : SAE 2.01
 
@@ -231,7 +235,7 @@ Appréciée tout au long du semestre par les enseignants. Critères :
 - **Documents autorisés** : oui, anciens sujets conseillés
 - **Sujet** : mini-application JavaFX à coder sur feuille (vue, contrôleur, bindings)
 - **Barème** : cohérent avec les sujets d'examen des années précédentes
-- **Date** : dernière semaine du module (semaine du 15 juin 2026)
+- **Date** : jeudi 18 juin 2026, en commun avec R2.03
 
 ### Anciens sujets d'examen (archive)
 
