@@ -225,11 +225,13 @@ La progression est explicite :
 
 ### CC1 — Autograding TP
 
-Chaque TP publie une note sur GitHub Classroom via le workflow `classroom.yml` :
+Chaque TP publie un score sur GitHub Classroom via le workflow `classroom.yml` :
 
-- Compilation : 10 pts
-- Chaque exercice : 90 / N pts (équirépartition sur les N exercices)
-- Total sur 100 par TP
+- Compilation : 100 pts
+- Chaque exercice : 900 / N pts (équirépartition sur les N exercices)
+- À l'intérieur d'un exercice : les points sont répartis entre les méthodes de test, chaque test valant au moins 1 point
+- Un test `@Disabled` rapporte **0 point** (un TP « non fait » reste à 0, pas à 1000)
+- **Total sur 1000 par TP** (affiché brut par Classroom, ex : `Points 250/1000` ; ramené sur 20 au calcul final en divisant par 50)
 - La **moyenne des TP** constitue la note CC1
 
 ### CC2 — Participation et implication
