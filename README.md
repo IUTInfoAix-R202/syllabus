@@ -154,15 +154,16 @@ Index des slides : <https://iutinfoaix-r202.github.io/cours/>. Les slides sont a
 
 ### Travaux pratiques (5 modules, 34 h au total)
 
+> [!IMPORTANT]
+> **Accès étudiant aux TP** : le point d'entrée unique est l'index public [**`IUTInfoAix-R202/tp`**](https://github.com/IUTInfoAix-R202/tp). Il centralise les liens **GitHub Classroom** de chaque TP et les pointeurs vers les supports de CM. Chaque acceptation d'un devoir Classroom crée automatiquement un dépôt personnel dans l'organisation [`IUTInfoAix-R202-2026`](https://github.com/IUTInfoAix-R202-2026). Les dépôts enseignants `tp1`..`tp5` sont privés et ne sont pas accessibles directement.
+
 | TP | Thème | Exercices | Répartition | Noté | Statut |
 |----|-------|-----------|-------------|------|--------|
-| [TP1](https://github.com/IUTInfoAix-R202/tp1) | Bases JavaFX (Stage, Scene, Node, layouts, événements) | 6 + 2 bonus | s1-s2 (6 h) | ✅ autograding | ✅ Publié |
-| [TP2](https://github.com/IUTInfoAix-R202/tp2) | Propriétés et bindings | 8 + 2 bonus | s2-s3 (8 h) | ✅ autograding | ✅ Publié |
-| [TP3](https://github.com/IUTInfoAix-R202/tp3) | FXML | 7 + 2 bonus | s4 (8 h) | ✅ autograding | 🔄 En cours |
-| [TP4](https://github.com/IUTInfoAix-R202/tp4) | MVVM (Model-View-ViewModel, testabilité) | à définir | s6 (8 h) | ✅ autograding | ⏳ À venir |
-| [TP5](https://github.com/IUTInfoAix-R202/tp5) | Persistance (JDBC, JPA) | à définir | s7 (4 h, slot SAÉ) | ✅ autograding | ⏳ À venir |
-
-Les énoncés et le code de chaque TP sont distribués aux étudiants exclusivement via **GitHub Classroom** : l'index public [`tp`](https://github.com/IUTInfoAix-R202/tp) centralise les liens et chaque acceptation crée un dépôt personnel dans l'organisation Classroom [`IUTInfoAix-R202-2026`](https://github.com/IUTInfoAix-R202-2026).
+| **TP1** | Bases JavaFX (Stage, Scene, Node, layouts, événements) | 6 + 2 bonus | s1-s2 (6 h) | ✅ autograding | ✅ Publié |
+| **TP2** | Propriétés et bindings | 8 + 2 bonus | s2-s3 (8 h) | ✅ autograding | ✅ Publié |
+| **TP3** | FXML | 7 + 2 bonus | s4 (8 h) | ✅ autograding | 🔄 En cours |
+| **TP4** | MVVM (Model-View-ViewModel, testabilité) | à définir | s6 (8 h) | ✅ autograding | ⏳ À venir |
+| **TP5** | Persistance (JDBC, JPA) | à définir | s7 (4 h, slot SAÉ) | ✅ autograding | ⏳ À venir |
 
 Chaque TP est autonome (son propre dépôt, sa propre fiche Classroom) mais s'inscrit dans la progression : les compétences acquises dans un TP sont systématiquement réinvesties dans les suivants (Compteur TP1 → IntegerProperty TP2 → CompteurFXML TP3 ; FormulaireConnexion TP2 bindings → TP3 FXML + CSS, etc.).
 
