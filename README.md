@@ -239,21 +239,39 @@ Chaque TP publie un score sur GitHub Classroom via le workflow `classroom.yml` :
 
 ### CC2 — Participation et implication
 
-Appréciée tout au long du semestre par les enseignants. Critères :
+CC2 est apprécié sur **20 points** à partir de l'observation en séance par l'équipe pédagogique. Les 4 critères contribuent à parts égales :
 
-- Présence active en TP
-- Qualité des questions posées
-- Entraide avec les autres étudiants
-- Respect du workflow git (commits clairs, branches, PR, review)
+| Critère | Poids |
+|---|---|
+| Présence active en TP | /5 |
+| Qualité des questions et contributions | /5 |
+| Entraide et collaboration | /5 |
+| Respect du workflow git (commits clairs, branches, PR, review) | /5 |
+| **Total** | **/20** |
+
+Chaque critère se note sur une échelle informelle : **0** = non observé, **2-3** = satisfaisant, **5** = excellent.
 
 ### CC3 — Examen terminal écrit
 
+- **Date** : jeudi 18 juin 2026, commun avec R2.03
 - **Durée** : 2 heures
 - **Salle** : salle de test dédiée
 - **Documents autorisés** : oui, anciens sujets conseillés
 - **Sujet** : mini-application JavaFX à coder sur feuille (vue, contrôleur, bindings)
-- **Barème** : cohérent avec les sujets d'examen des années précédentes
-- **Date** : jeudi 18 juin 2026, en commun avec R2.03
+
+**Gabarit de barème** — pondération indicative sur /20 :
+
+| Critère | Poids |
+|---|---|
+| Architecture (séparation vue/logique, MVC ou MVVM) | /4 |
+| FXML et contrôleur (`fx:controller`, `@FXML`, `initialize`) | /4 |
+| Modèle événementiel (`EventHandler`, propagation, actions) | /3 |
+| Propriétés observables et bindings | /3 |
+| Ergonomie / UX (feedback, affordance, prévention d'erreur) | /3 |
+| Lisibilité et propreté du code (nommage, structure, commentaires utiles) | /3 |
+| **Total** | **/20** |
+
+> Cette pondération est un **gabarit** : la répartition réelle peut évoluer d'une année sur l'autre selon ce qui a été effectivement couvert et approfondi pendant les séances. Le barème exact est publié avec le sujet de l'année. Les anciens sujets (voir archive) suivent une pondération cohérente avec ce gabarit et sont représentatifs du niveau attendu.
 
 ### Anciens sujets d'examen (archive)
 
