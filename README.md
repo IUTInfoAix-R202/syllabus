@@ -1,6 +1,6 @@
-# <img src=".github/assets/logo.png" alt="class logo" class="logo" width="120"/> R2.02 — Développement d'applications avec IHM
+# <img src=".github/assets/logo.png" alt="class logo" class="logo" width="120"/> R2.02 - Développement d'applications avec IHM
 
-## BUT Informatique — 1ère année — IUT Aix-Marseille (département Informatique)
+## BUT Informatique - 1ère année - IUT Aix-Marseille (département Informatique)
 
 ---
 
@@ -10,16 +10,16 @@
 - **Semestre** : S2 (année BUT1)
 - **Volume horaire PN** : 38 h (dont 10 h de TP)
 - **Maquette locale IUT Aix-Marseille 2025-2026** : 6 h CM + 20 h TD + 10 h TP + 2 h test écrit. Quatre heures supplémentaires de persistance JDBC sont assurées en semaine 7 en préparation de la SAÉ 2.01.
-- **Responsable** : [Sébastien NEDJAR](mailto:sebastien.nedjar@univ-amu.fr) - responsable du module
+- **Responsable** : [Sébastien NEDJAR](mailto:sebastien.nedjar@univ-amu.fr)
 - **Équipe pédagogique** :
   - [Frédéric Flouvat](mailto:frederic.flouvat@univ-amu.fr)
   - [Sophie Nabitz](mailto:sophie.nabitz@univ-avignon.fr)
   - [Samir Chtioui](mailto:samir.chtioui@gmail.com)
   - [Olivier Gérard](mailto:olivier.GERARD@univ-amu.fr) *(intervention ergonomie, 4 h en semaine 7, préparation SAÉ 2.01)*
 - **Format des séances** :
-  - **CM** : 4 séances de 1h30
-  - **TD** : blocs de 4h en salle machine (bloc unique ou 2 × 2h selon emploi du temps)
-  - **TP** : séances de 2h dédoublées ou 4h dédoublées, salle machine
+  - **CM** : 4 séances de 1h30, en promo entière (4 groupes réunis)
+  - **TD** : blocs de 4h en salle machine, en groupe complet (29 étudiants)
+  - **TP** : blocs de 2h ou 4h en salle machine, en demi-groupe (~14 étudiants)
   - **Test final** : 2h, commun avec R2.03
 - **Ressource officielle** : [Annexe 15 du PN BUT Informatique 2022 - fiche R2.02 p. 92](https://cache.media.education.gouv.fr/file/SP4-MESRI-26-5-2022/14/6/spe617_annexe15_1426146.pdf)
 - **Mots-clés officiels** : Interface homme-machine, Événementiel, Ergonomie
@@ -69,7 +69,7 @@ Les acquis critiques officiellement rattachés à R2.02 :
 
 ### SAÉ concernée par cette ressource
 
-- **SAÉ 2.01** — Développement d'une application : interface d'extraction et manipulation de données pour capteurs de détection de chauves-souris. **SAÉ portée conjointement avec R2.03 (Qualité de développement)** — les compétences JavaFX/FXML/MVVM y sont mobilisées pour construire l'application, les compétences Git/TDD/revue de code pour en garantir la qualité.
+- **SAÉ 2.01** - Développement d'une application : interface d'extraction et manipulation de données pour capteurs de détection de chauves-souris. **SAÉ portée conjointement avec R2.03 (Qualité de développement)** - les compétences JavaFX/FXML/MVVM y sont mobilisées pour construire l'application, les compétences Git/TDD/revue de code pour en garantir la qualité.
 
 ### Acquis d'apprentissage détaillés (implémentation 2025-2026)
 
@@ -103,7 +103,7 @@ Le PN ne formalise **aucun prérequis** pour R2.02. En pratique, le module s'app
 - Utilisation d'un IDE Java (VS Code, IntelliJ IDEA) ou Codespaces dans le navigateur
 - Ligne de commande Unix
 - Premières notions de Git (clone, commit, push, branches)
-- Lecture de messages d'erreur et de stacks traces
+- Lecture de messages d'erreur et de traces d'exécution
 
 ### Environnement technique
 
@@ -120,20 +120,23 @@ Le PN ne formalise **aucun prérequis** pour R2.02. En pratique, le module s'app
 
 ### Calendrier 2025-2026
 
-Le module est réparti sur **7 semaines** du 27 avril au 8 juin 2026, suivies d'un **examen écrit** en commun avec R2.03 le 18 juin. Les semaines 5 (25/05) et 7 (08/06) sont officiellement libres pour R2.02 — des activités de la SAÉ y prennent place (persistance JDBC et intervention ergonomie en s7) :
+Le module est réparti sur **7 semaines** du 27 avril au 8 juin 2026, suivies d'un **examen écrit** en commun avec R2.03 le 18 juin. Deux semaines sont officiellement libres pour R2.02 :
+
+- **Semaine 5** (25/05) : consacrée aux SAÉ 2.05 et 2.06 - aucune activité R2.02 ni R2.03.
+- **Semaine 7** (08/06) : semaine de préparation de la SAÉ 2.01 - accueille le **TP5 Persistance** (non strictement IHM mais indispensable à la SAÉ, et dont la note **compte en CC1 R2.02**) et l'**intervention ergonomie d'Olivier Gérard** (4 h, hors volume R2.02).
 
 | Semaine | Date | CM | TD | TP | Contenu |
 |---|---|---|---|---|---|
-| 1 | Lun. 27 avril 2026 | 2 × 1h30 | 4 h | — | **CM1** Fondations IHM · **CM2** Propriétés & bindings · **TP1** Bases JavaFX (4 h) |
-| 2 | Lun. 4 mai 2026 | — | 4 h | — | **TP1** fin (2 h) + **TP2** Propriétés & bindings début (2 h) |
+| 1 | Lun. 27 avril 2026 | 2 × 1h30 | 4 h | - | **CM1** Fondations IHM · **CM2** Propriétés & bindings · **TP1** Bases JavaFX (4 h) |
+| 2 | Lun. 4 mai 2026 | - | 4 h | - | **TP1** fin (2 h) + **TP2** Propriétés & bindings début (2 h) |
 | 3 | Lun. 11 mai 2026 | 1h30 | 4 h | 2 h | **CM3** Architecture & FXML · **TP2** suite (6 h) |
 | 4 | Lun. 18 mai 2026 | 1h30 | 4 h | 4 h | **CM4** MVVM & synthèse · **TP3** FXML (8 h) |
-| 5 | Lun. 25 mai 2026 | — | — | — | *(créneau dédié à une autre SAÉ)* |
-| 6 | Lun. 1er juin 2026 | — | 4 h | 4 h | **TP4** MVVM (8 h) |
-| 7 | Lun. 8 juin 2026 | — | — | — | **TP5** Persistance (4 h, budget SAÉ) · *+ 4 h ergonomie assurées par Olivier Gérard, hors R2.02* |
-| **Examen** | **Jeu. 18 juin 2026** | — | **2 h** | — | **CC3** test écrit commun avec R2.03 |
+| 5 | Lun. 25 mai 2026 | - | - | - | *(semaine SAÉ 2.05 / 2.06 - hors R2.02)* |
+| 6 | Lun. 1er juin 2026 | - | 4 h | 4 h | **TP4** MVVM (8 h) |
+| 7 | Lun. 8 juin 2026 | - | - | - | **TP5** Persistance (4 h, budget SAÉ) · *+ 4 h ergonomie assurées par Olivier Gérard, hors R2.02* |
+| **Examen** | **Jeu. 18 juin 2026** | - | **2 h** | - | **CC3** test écrit commun avec R2.03 |
 
-**Formats** : TD en groupe complet, TP en demi-groupe. Pédagogiquement, TD et TP sont tous deux du travail sur machine — les modules TP1-TP5 s'étalent indifféremment sur les créneaux TD ou TP. Le calendrier ci-dessus est indicatif : les dates peuvent évoluer selon la scolarité et l'avancement.
+Pédagogiquement, TD et TP sont tous deux du travail sur machine : les modules TP1-TP5 s'étalent indifféremment sur les créneaux TD ou TP. Le calendrier ci-dessus est indicatif, les dates peuvent évoluer selon la scolarité et l'avancement.
 
 ### Cours magistraux (6 h au total)
 
@@ -146,7 +149,7 @@ Le module est réparti sur **7 semaines** du 27 avril au 8 juin 2026, suivies d'
 
 Index des slides : <https://iutinfoaix-r202.github.io/cours/>. Les slides sont au format [Marp](https://marp.app/) (Markdown + HTML/PDF exportable) et publiés sur GitHub Pages à chaque push.
 
-**Fil rouge des CM** — trois axes traversent l'ensemble :
+**Fil rouge des CM** - trois axes traversent l'ensemble :
 
 - **🏗️ Architecture** : code monolithique (CM1) → séparation vue/modèle en FXML (CM3) → MVVM (CM4)
 - **🧠 Ergonomie / UX** : Nielsen & Gestalt (CM1) → affordance (CM2) → WCAG / Fitts / Hick (CM3)
@@ -157,13 +160,13 @@ Index des slides : <https://iutinfoaix-r202.github.io/cours/>. Les slides sont a
 > [!IMPORTANT]
 > **Accès étudiant aux TP** : le point d'entrée unique est l'index public [**`IUTInfoAix-R202/tp`**](https://github.com/IUTInfoAix-R202/tp). Il centralise les liens **GitHub Classroom** de chaque TP et les pointeurs vers les supports de CM. Chaque acceptation d'un devoir Classroom crée automatiquement un dépôt personnel dans l'organisation [`IUTInfoAix-R202-2026`](https://github.com/IUTInfoAix-R202-2026). Les dépôts enseignants `tp1`..`tp5` sont privés et ne sont pas accessibles directement.
 
-Tous les TPs sont évalués par autograding via GitHub Classroom ([barème détaillé](#cc1--autograding-tp)).
+Tous les TPs sont évalués par autograding via GitHub Classroom ([barème détaillé](#cc1---autograding-tp)).
 
 | TP | Thème | Exercices | Répartition | Statut |
 |----|-------|-----------|-------------|--------|
 | **TP1** | Bases JavaFX (Stage, Scene, Node, layouts, événements) | 6 + 2 bonus | s1-s2 (6 h) | ✅ Publié |
 | **TP2** | Propriétés et bindings | 8 + 2 bonus | s2-s3 (8 h) | ✅ Publié |
-| **TP3** | FXML | 7 + 2 bonus | s4 (8 h) | 🔄 Rédaction en cours |
+| **TP3** | FXML | 7 + 2 bonus | s4 (8 h) | 🔄 En cours |
 | **TP4** | MVVM (Model-View-ViewModel, testabilité) | à définir | s6 (8 h) | ⏳ À venir |
 | **TP5** | Persistance (JDBC, JPA) | à définir | s7 (4 h, slot SAÉ) | ⏳ À venir |
 
@@ -175,7 +178,7 @@ Chaque TP est autonome (son propre dépôt, sa propre fiche Classroom) mais s'in
 
 ### Approche TDD baby-step
 
-Chaque exercice pendant les TP est structuré comme une série de **tests désactivés** (`@Disabled`). L'étudiant active les tests **un par un** dans l'ordre, écrit le code minimal pour les faire passer, puis avance.
+Chaque exercice pendant les TP est structuré comme une série de **tests désactivés** (`@Disabled`). Vous activez les tests **un par un** dans l'ordre, écrivez le code minimal pour les faire passer, puis avancez.
 
 Cette approche :
 
@@ -186,7 +189,7 @@ Cette approche :
 
 ### Workflow professionnel
 
-- **Fork Classroom** de chaque TP : 1 repo par étudiant, créé automatiquement
+- **Acceptation Classroom** : chaque étudiant accepte le devoir via un lien, ce qui génère automatiquement son repo personnel à partir du template
 - **Branches** : les exercices doivent être développés sur des branches thématiques
 - **Pull Request** vers la branche principale pour chaque exercice fini
 - **Auto-évaluation** via les tests qui tournent en CI GitHub Actions
@@ -205,9 +208,9 @@ Cette approche :
 
 **Pourquoi c'est essentiel** : l'évaluation CC3 se fait **sur feuille, sans outil**. Vous devez construire vos propres automatismes.
 
-### Fil rouge : SAE 2.01
+### Fil rouge : SAÉ 2.01
 
-Les compétences de R2.02 nourrissent directement la SAE 2.01 — **interface d'extraction et manipulation de données pour des capteurs de détection/identification de chauves-souris**.
+Les compétences de R2.02 nourrissent directement la SAÉ 2.01 - **interface d'extraction et manipulation de données pour des capteurs de détection/identification de chauves-souris**.
 
 La progression est explicite :
 
@@ -226,7 +229,7 @@ La progression est explicite :
 | **CC2** | 10 | Continue | Participation et implication en séance |
 | **CC3** | 40 | Écrit final | Mini-application JavaFX sur feuille (2 heures, documents autorisés) |
 
-### CC1 — Autograding TP
+### CC1 - Autograding TP
 
 Chaque TP publie un score sur GitHub Classroom via le workflow `classroom.yml` :
 
@@ -237,7 +240,7 @@ Chaque TP publie un score sur GitHub Classroom via le workflow `classroom.yml` :
 - **Total sur 1000 par TP** (affiché brut par Classroom, ex : `Points 250/1000` ; ramené sur 20 au calcul final en divisant par 50)
 - La **moyenne des TP** constitue la note CC1
 
-### CC2 — Participation et implication
+### CC2 - Participation et implication
 
 CC2 est apprécié sur **20 points** à partir de l'observation en séance par l'équipe pédagogique. Les 4 critères contribuent à parts égales :
 
@@ -251,7 +254,7 @@ CC2 est apprécié sur **20 points** à partir de l'observation en séance par l
 
 Chaque critère se note sur une échelle informelle : **0** = non observé, **2-3** = satisfaisant, **5** = excellent.
 
-### CC3 — Examen terminal écrit
+### CC3 - Examen terminal écrit
 
 - **Date** : jeudi 18 juin 2026, commun avec R2.03
 - **Durée** : 2 heures
@@ -259,7 +262,7 @@ Chaque critère se note sur une échelle informelle : **0** = non observé, **2-
 - **Documents autorisés** : oui, anciens sujets conseillés
 - **Sujet** : mini-application JavaFX à coder sur feuille (vue, contrôleur, bindings)
 
-**Gabarit de barème** — pondération indicative sur /20 :
+**Gabarit de barème** - pondération indicative sur /20 :
 
 | Critère | Poids |
 |---|---|
@@ -275,7 +278,7 @@ Chaque critère se note sur une échelle informelle : **0** = non observé, **2-
 
 ### Anciens sujets d'examen (archive)
 
-- [TestIHM2015 à 2022](https://github.com/IUTInfoAix-R202-archive/) — utilisables comme entraînement. Les plus récents couvrent Othello, Mastermind, Lights Out, Taquin, tracé de fonctions...
+- [TestIHM2015 à 2022](https://github.com/IUTInfoAix-R202-archive/) - utilisables comme entraînement. Les plus récents couvrent Othello, Mastermind, Lights Out, Taquin, tracé de fonctions...
 
 ---
 
@@ -283,24 +286,18 @@ Chaque critère se note sur une échelle informelle : **0** = non observé, **2-
 
 ### Dépôts GitHub (organisation [`IUTInfoAix-R202`](https://github.com/IUTInfoAix-R202))
 
-- [`cours`](https://github.com/IUTInfoAix-R202/cours) — slides Marp des CM
-- [`tp`](https://github.com/IUTInfoAix-R202/tp) — index des TP et CM
-- [`syllabus`](https://github.com/IUTInfoAix-R202/syllabus) — ce document
-- [`IUTInfoAix-R202-archive`](https://github.com/IUTInfoAix-R202-archive/) — anciens sujets et archives historiques
-
-### Environnement recommandé
-
-- **GitHub Codespaces** (IDE cloud gratuit via GitHub Education)
-- **VS Code + extensions Java**
-- **SceneBuilder** (facultatif, utile à partir du TP3)
+- [`cours`](https://github.com/IUTInfoAix-R202/cours) - slides Marp des CM
+- [`tp`](https://github.com/IUTInfoAix-R202/tp) - index des TP et CM
+- [`syllabus`](https://github.com/IUTInfoAix-R202/syllabus) - ce document
+- [`IUTInfoAix-R202-archive`](https://github.com/IUTInfoAix-R202-archive/) - anciens sujets et archives historiques
 
 ### Documentation officielle
 
 - [Javadoc JavaFX 25](https://openjfx.io/javadoc/25/)
 - [OpenJFX Getting Started](https://openjfx.io/openjfx-docs/)
-- [dev.java — JavaFX Properties](https://dev.java/learn/javafx/properties/)
+- [dev.java - JavaFX Properties](https://dev.java/learn/javafx/properties/)
 - [FXDocs Community](https://fxdocs.github.io/docs/html5/)
-- [JavaFX Software (AlmasB)](https://www.youtube.com/playlist?list=PL4h6ypqTi3RR_bhBk6PtLfD83YkaJXXxw) — playlist vidéo
+- [JavaFX Software (AlmasB)](https://www.youtube.com/playlist?list=PL4h6ypqTi3RR_bhBk6PtLfD83YkaJXXxw) - playlist vidéo
 
 ---
 
