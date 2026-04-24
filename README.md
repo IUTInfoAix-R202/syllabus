@@ -120,7 +120,7 @@ Le PN ne formalise **aucun prérequis** pour R2.02. En pratique, le module s'app
 
 ### Calendrier 2025-2026
 
-Le module est réparti sur **7 semaines** du 27 avril au 8 juin 2026, suivies d'un **examen écrit** en commun avec R2.03 le 18 juin. Deux semaines sont officiellement libres pour R2.02 :
+Le module est réparti sur **7 semaines** du 27 avril au 8 juin 2026, suivies d'un **examen écrit** en commun avec R2.03 le 18 juin. Deux semaines sont **hors volume horaire R2.02** :
 
 - **Semaine 5** (25/05) : consacrée aux SAÉ 2.05 et 2.06 - aucune activité R2.02 ni R2.03.
 - **Semaine 7** (08/06) : semaine de préparation de la SAÉ 2.01 - accueille le **TP5 Persistance** (non strictement IHM mais indispensable à la SAÉ, et dont la note **compte en CC1 R2.02**) et l'**intervention ergonomie d'Olivier Gérard** (4 h, hors volume R2.02).
@@ -155,7 +155,7 @@ Index des slides : <https://iutinfoaix-r202.github.io/cours/>. Les slides sont a
 - **🧠 Ergonomie / UX** : Nielsen & Gestalt (CM1) → affordance (CM2) → WCAG / Fitts / Hick (CM3)
 - **⚡ Modèle événementiel** : `setOnAction` basique (CM1) → propagation complète (CM2) → bindings réactifs (CM2-4)
 
-### Travaux pratiques (5 modules, 34 h au total)
+### Travaux pratiques (5 modules : 30 h R2.02 + 4 h SAÉ)
 
 > [!IMPORTANT]
 > **Accès étudiant aux TP** : le point d'entrée unique est l'index public [**`IUTInfoAix-R202/tp`**](https://github.com/IUTInfoAix-R202/tp). Il centralise les liens **GitHub Classroom** de chaque TP et les pointeurs vers les supports de CM. Chaque acceptation d'un devoir Classroom crée automatiquement un dépôt personnel dans l'organisation [`IUTInfoAix-R202-2026`](https://github.com/IUTInfoAix-R202-2026). Les dépôts enseignants `tp1`..`tp5` sont privés et ne sont pas accessibles directement.
