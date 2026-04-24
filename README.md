@@ -9,7 +9,7 @@
 - **Intitulé** : R2.02 - Développement d'applications avec IHM
 - **Semestre** : S2 (année BUT1)
 - **Volume horaire PN** : 38 h (dont 10 h de TP)
-- **Maquette locale IUT Aix-Marseille 2025-2026** : 6 h CM + 22 h TD + 12 h TP + 2 h test écrit *(les heures TP supplémentaires par rapport au PN proviennent de la SAÉ 2.01 co-portée)*
+- **Maquette locale IUT Aix-Marseille 2025-2026** : 6 h CM + 20 h TD + 10 h TP + 2 h test écrit. Quatre heures supplémentaires de persistance JDBC sont assurées en semaine 7 en préparation de la SAÉ 2.01.
 - **Responsable** : [Sébastien NEDJAR](mailto:sebastien.nedjar@univ-amu.fr) - responsable du module
 - **Équipe pédagogique** :
   - [Frédéric Flouvat](mailto:frederic.flouvat@univ-amu.fr)
@@ -120,20 +120,20 @@ Le PN ne formalise **aucun prérequis** pour R2.02. En pratique, le module s'app
 
 ### Calendrier 2025-2026
 
-Le module est réparti sur **8 semaines** du 27 avril au 18 juin 2026, suivies d'un **examen écrit** en commun avec R2.03 :
+Le module est réparti sur **7 semaines** du 27 avril au 8 juin 2026, suivies d'un **examen écrit** en commun avec R2.03 le 18 juin. Les semaines 5 (25/05) et 7 (08/06) sont officiellement libres pour R2.02 — des activités de la SAÉ y prennent place (persistance JDBC et intervention ergonomie en s7) :
 
 | Semaine | Date | CM | TD | TP | Contenu |
 |---|---|---|---|---|---|
-| 1 | Lun. 27 avril 2026 | 1h30 | 4 h | — | **CM1** Fondations IHM · **TD1** Premiers composants JavaFX |
-| 2 | Lun. 4 mai 2026 | 1h30 | 4 h | 2 h | **CM2** Propriétés & bindings · **TD2** · **TP1** Bases JavaFX |
-| 3 | Lun. 11 mai 2026 | — | 4 h | 2 h | **TD3** · **TP2** Propriétés et bindings |
-| 4 | Lun. 18 mai 2026 | 1h30 | 4 h | 2 h | **CM3** Architecture & FXML · **TD4** · **TP3** FXML |
-| 5 | Lun. 25 mai 2026 | — | 4 h | — | **TD5** (suite FXML / MVVM) |
-| 6 | Lun. 1er juin 2026 | 1h30 | 2 h | 2 h | **CM4** MVVM & synthèse · **TP4** MVVM |
-| 7 | Lun. 8 juin 2026 | — | 4 h | 4 h | **TP5** Persistance · **TD Ergonomie** 4 h (Olivier Gérard, préparation SAÉ 2.01) |
+| 1 | Lun. 27 avril 2026 | 2 × 1h30 | 4 h | — | **CM1** Fondations IHM · **CM2** Propriétés & bindings · **TP1** Bases JavaFX (4 h) |
+| 2 | Lun. 4 mai 2026 | — | 4 h | — | **TP1** fin (2 h) + **TP2** Propriétés & bindings début (2 h) |
+| 3 | Lun. 11 mai 2026 | 1h30 | 4 h | 2 h | **CM3** Architecture & FXML · **TP2** suite (6 h) |
+| 4 | Lun. 18 mai 2026 | 1h30 | 4 h | 4 h | **CM4** MVVM & synthèse · **TP3** FXML (8 h) |
+| 5 | Lun. 25 mai 2026 | — | — | — | *(créneau dédié à une autre SAÉ)* |
+| 6 | Lun. 1er juin 2026 | — | 4 h | 4 h | **TP4** MVVM (8 h) |
+| 7 | Lun. 8 juin 2026 | — | — | — | **TP5** Persistance (4 h, budget SAÉ) · *+ 4 h ergonomie assurées par Olivier Gérard, hors R2.02* |
 | **Examen** | **Jeu. 18 juin 2026** | — | **2 h** | — | **CC3** test écrit commun avec R2.03 |
 
-**Durée d'une séance** : CM de 1h30, TD en blocs de 4h (ou 2 × 2h), TP dédoublés de 2h ou 4h. Le responsable organise le découpage avec la scolarité. Le calendrier ci-dessus est indicatif — les dates de publication des CM/TP peuvent bouger selon l'avancement.
+**Formats** : TD en groupe complet, TP en demi-groupe. Pédagogiquement, TD et TP sont tous deux du travail sur machine — les modules TP1-TP5 s'étalent indifféremment sur les créneaux TD ou TP. Le calendrier ci-dessus est indicatif : les dates peuvent évoluer selon la scolarité et l'avancement.
 
 ### Cours magistraux (6 h au total)
 
@@ -152,15 +152,15 @@ Index des slides : <https://iutinfoaix-r202.github.io/cours/>. Les slides sont a
 - **🧠 Ergonomie / UX** : Nielsen & Gestalt (CM1) → affordance (CM2) → WCAG / Fitts / Hick (CM3)
 - **⚡ Modèle événementiel** : `setOnAction` basique (CM1) → propagation complète (CM2) → bindings réactifs (CM2-4)
 
-### Travaux pratiques (10 h TP + 22 h TD)
+### Travaux pratiques (5 modules, 34 h au total)
 
-| TP | Thème | Exercices | Format | Noté | Statut |
-|----|-------|-----------|--------|------|--------|
-| [TP1](https://github.com/IUTInfoAix-R202/tp1) | Bases JavaFX (Stage, Scene, Node, layouts, événements) | 6 + 2 bonus | TD + TP (semaines 1-2) | ✅ autograding | ✅ Publié |
-| [TP2](https://github.com/IUTInfoAix-R202/tp2) | Propriétés et bindings | 8 + 2 bonus | TD + TP (semaines 2-3) | ✅ autograding | ✅ Publié |
-| [TP3](https://github.com/IUTInfoAix-R202/tp3) | FXML | 7 + 2 bonus | TD + TP (semaines 4-5) | ✅ autograding | 🔄 En cours |
-| [TP4](https://github.com/IUTInfoAix-R202/tp4) | MVVM (Model-View-ViewModel, testabilité) | à définir | TD + TP (semaine 6) | ✅ autograding | ⏳ À venir |
-| [TP5](https://github.com/IUTInfoAix-R202/tp5) | Persistance (JDBC, JPA) | à définir | TP (semaine 7) | ✅ autograding | ⏳ À venir |
+| TP | Thème | Exercices | Répartition | Noté | Statut |
+|----|-------|-----------|-------------|------|--------|
+| [TP1](https://github.com/IUTInfoAix-R202/tp1) | Bases JavaFX (Stage, Scene, Node, layouts, événements) | 6 + 2 bonus | s1-s2 (6 h) | ✅ autograding | ✅ Publié |
+| [TP2](https://github.com/IUTInfoAix-R202/tp2) | Propriétés et bindings | 8 + 2 bonus | s2-s3 (8 h) | ✅ autograding | ✅ Publié |
+| [TP3](https://github.com/IUTInfoAix-R202/tp3) | FXML | 7 + 2 bonus | s4 (8 h) | ✅ autograding | 🔄 En cours |
+| [TP4](https://github.com/IUTInfoAix-R202/tp4) | MVVM (Model-View-ViewModel, testabilité) | à définir | s6 (8 h) | ✅ autograding | ⏳ À venir |
+| [TP5](https://github.com/IUTInfoAix-R202/tp5) | Persistance (JDBC, JPA) | à définir | s7 (4 h, slot SAÉ) | ✅ autograding | ⏳ À venir |
 
 Les énoncés et le code de chaque TP sont distribués aux étudiants exclusivement via **GitHub Classroom** : l'index public [`tp`](https://github.com/IUTInfoAix-R202/tp) centralise les liens et chaque acceptation crée un dépôt personnel dans l'organisation Classroom [`IUTInfoAix-R202-2026`](https://github.com/IUTInfoAix-R202-2026).
 
@@ -184,14 +184,14 @@ Cette approche :
 ### Workflow professionnel
 
 - **Fork Classroom** de chaque TP : 1 repo par étudiant, créé automatiquement
-- **Branches** : les exercices peuvent se développer sur des branches thématiques
+- **Branches** : les exercices doivent être développés sur des branches thématiques
 - **Pull Request** vers la branche principale pour chaque exercice fini
 - **Auto-évaluation** via les tests qui tournent en CI GitHub Actions
-- **Code review** pair à pair optionnelle (revue Copilot automatique)
+- **Code review** pair à pair conseillée (revue Copilot automatique)
 
 ### GitHub Copilot : deux rôles distincts
 
-**Copilot Chat** (tuteur en séance) est **encouragé** dans un rôle pédagogique précis, cadré par `.github/copilot-instructions.md` dans chaque TP :
+**Copilot Chat** (tuteur en séance) est **encouragé** dans un rôle pédagogique précis dans chaque TP :
 
 - ✅ Poser des questions conceptuelles (« comment fonctionne `@FXML` ? »)
 - ✅ Comprendre un message d'erreur
@@ -241,7 +241,7 @@ Appréciée tout au long du semestre par les enseignants. Critères :
 - Présence active en TP
 - Qualité des questions posées
 - Entraide avec les autres étudiants
-- Respect du workflow git (commits clairs, branches, PR)
+- Respect du workflow git (commits clairs, branches, PR, review)
 
 ### CC3 — Examen terminal écrit
 
@@ -269,9 +269,9 @@ Appréciée tout au long du semestre par les enseignants. Critères :
 
 ### Environnement recommandé
 
+- **GitHub Codespaces** (IDE cloud gratuit via GitHub Education)
 - **VS Code + extensions Java**
 - **SceneBuilder** (facultatif, utile à partir du TP3)
-- **GitHub Codespaces** (option cloud gratuite via GitHub Education)
 
 ### Documentation officielle
 
